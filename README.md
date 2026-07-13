@@ -10,7 +10,7 @@ Proyecto desarrollado en Java como continuación del sistema de gestión de la a
 
 En esta versión, el sistema amplía sus funcionalidades para gestionar distintas entidades relevantes para las operaciones de la agencia, como guías turísticos, vehículos y colaboradores externos.
 
-La solución aplica herencia, interfaces, polimorfismo, colecciones genéricas y validación de tipos mediante `instanceof`. Además, incorpora una interfaz gráfica básica con `JOptionPane`, que permite ingresar nuevos registros y visualizar su información de forma sencilla.
+La solución aplica herencia, interfaces, polimorfismo, colecciones genéricas y validación de tipos mediante `instanceof`. Además, incorpora una interfaz gráfica básica con `JOptionPane`, que permite ingresar nuevos registros y visualizar su información de forma simple.
 
 ## Estructura general del proyecto
 
@@ -27,7 +27,7 @@ src/
 │   ├── Registrable.java
 │   └── Vehiculo.java
 └── ui/
-    ├── InterfazUsuario.java
+    ├── Interfaz.java
     └── Main.java
 ```
 
@@ -37,7 +37,7 @@ src/
 
 `model`: contiene las clases que representan las entidades del sistema, la clase base Persona y la interfaz Registrable, que define el comportamiento común mediante el método mostrarResumen().
 
-`ui`: contiene la clase Main, que funciona como punto de entrada de la aplicación, e InterfazUsuario, encargada de gestionar la interacción gráfica mediante JOptionPane.
+`ui`: contiene la clase Main, que funciona como punto de entrada de la aplicación, e Interfaz, encargada de gestionar la interacción gráfica mediante JOptionPane.
 
 ## Instrucciones para clonar y ejecutar el proyecto
 
